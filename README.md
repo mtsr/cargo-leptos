@@ -1,22 +1,27 @@
+<!-- 
+Please don't edit. This document has been generated from src/readme.tpl.md
+--> 
+Table of contents
+
+- [Features](#features)
+- [Getting started](#getting-started)
+    - [Dependencies](#dependencies)
+- [Single-package setup](#single-package-setup)
+- [Workspace setup](#workspace-setup)
+- [Build features](#build-features)
+- [Parameters reference](#parameters-reference)
+    - [Compilation parameters](#compilation-parameters)
+    - [Site parameters](#site-parameters)
+    - [Environment variables](#environment-variables)
+
+---
+
 [![crates.io](https://img.shields.io/crates/v/cargo-leptos)](https://crates.io/crates/cargo-leptos)
 [![Discord](https://img.shields.io/discord/1031524867910148188?color=%237289DA&label=discord)](https://discord.gg/YdRAhS7eQB)
 
 Build tool for [Leptos](https://crates.io/crates/leptos):
 
 [<img src="https://raw.githubusercontent.com/gbj/leptos/main/docs/logos/Leptos_logo_RGB.png" alt="Leptos Logo" style="width: 30%; height: auto; display: block; margin: auto;">](http://https://crates.io/crates/leptos)
-
-<br/>
-
-- [Features](#features)
-- [Getting started](#getting-started)
-  - [Dependencies](#dependencies)
-- [Single-package setup](#single-package-setup)
-- [Workspace setup](#workspace-setup)
-- [Build features](#build-features)
-- [Parameters reference](#parameters-reference)
-  - [Compilation parameters](#compilation-parameters)
-  - [Site parameters](#site-parameters)
-  - [Environment variables](#environment-variables)
 
 <br/>
 
@@ -290,3 +295,4 @@ Note when using directories:
 - `cargo-leptos` changes the working directory to the project root or if in a workspace, the workspace root before building and running.
 - the two are set to the same value when running in a single-package config.
 - Avoid using them at run-time unless you can guarantee that the entire project struct is available at runtime as well.
+
